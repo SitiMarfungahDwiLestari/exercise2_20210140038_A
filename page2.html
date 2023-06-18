@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Page 2</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h3>Form Pendaftaran Konser NCT DREAM</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama" id="nama"><br><br>
+
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+
+            <label for="day">Day</label><br>
+            <select id="Day">
+                <option value="Day 1">Day 1</option>
+                <option value="Day 2">Day 2</option>
+            </select><br><br>
+
+            <p>Seatting Plan : </p>
+
+            <input type="radio" name="Plan" id="CAT1-A" value="CAT1-A">
+            <label for="CAT1-A">CAT1-A</label> <br>
+            <input type="radio" name="Plan" id="CAT1-B" value="CAT1-B">
+            <label for="CAT1-B">CAT1-B</label><br>
+            <input type="radio" name="Plan" id="CAT1-C" value="CAT1-C"> 
+            <label for="CAT1-C">CAT1-C</label><br>
+            <input type="radio" name="Plan" id="CAT1-D" value="CAT1-D">
+            <label for="CAT1-D">CAT1-D</label> <br>
+            <input type="radio" name="Plan" id="CAT2-A" value="CAT2-A">
+            <label for="CAT2-A">CAT2-A</label><br>
+            <input type="radio" name="Plan" id="CAT2-B" value="CAT2-B"> 
+            <label for="CAT2-B">CAT2-B</label><br>
+            <input type="radio" name="Plan" id="CAT3" value="CAT3">
+            <label for="CAT3">CAT3</label> <br>
+            <input type="radio" name="Plan" id="CAT4" value="CAT4">
+            <label for="CAT4">CAT4</label><br>
+            <input type="radio" name="Plan" id="CAT5" value="CAT5"> 
+            <label for="CAT5">CAT5</label><br><br>
+
+            <label for="Jumlah">Jumlah Tiket</label><br>
+            <textarea placeholder="Jumlah Tiket yang dipesan" name="Jumlah" id="Jumlah" cols="30" rows="5"></textarea><br><br>
+            <label for="Contact">Contact</label><br>
+            <textarea placeholder="Tulis kontak yang bisa dihubungi" name="Contact" id="Contact" cols="30" rows="5"></textarea><br><br>
+
+        </form>
+        <div class="buttons">
+            <button class="kembali" onclick="goBack()">Kembali</button>
+        </div>
+    </div>
+    <script src="javascript2.js"></script>
+</body>
+</html>
